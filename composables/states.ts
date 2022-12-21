@@ -1,0 +1,1 @@
+export const useColor = (color?: string) => useState<string>('color', () => color ?? 'pink')
